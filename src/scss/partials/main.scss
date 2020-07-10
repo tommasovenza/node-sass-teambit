@@ -33,7 +33,6 @@
         }        
         
     }
-
     img {
         width: 500px;
     }
@@ -97,24 +96,25 @@
     p {
         font-weight: 400;
     }
-    // margin-top: 40px;
+    margin-top: 80px;
     color: $primary_color;
-    padding: 50px 0;
+    // padding: 50px 0;
     background-color: #fee7d1;
-
-    img {
-        height: 150px;
-    }
 
     .intro {
         text-align: center;
+        padding-top: 100px;
     }
 
     .salmone-wrapper {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        padding: 100px 0;
+        padding: 60px 0;
+
+        img {
+            height: 150px;
+        }
 
         .dettaglio {
             padding: 20px 0;
@@ -125,8 +125,32 @@
             }
         }
     }
-}
 
+    .immagine-centrale {
+
+        width: 500px;
+        margin: 0 auto;
+        padding-bottom: 50px;
+        
+        img {
+            width: 100%;
+        }
+    }
+
+    .vuoto {
+        border-bottom: 1px solid $primary_color;
+        padding: 50px 0 0 0;
+        width: 100%;
+    }
+
+    .colophon {
+
+        text-align: center;
+        h2 {
+            padding: 100px 0;
+        }
+    }
+}
 
 // media queries sezione salmone 
 
@@ -134,4 +158,13 @@
     .salmone-wrapper {
         flex-direction: column;
     }
+    
+    .immagine-centrale {
+        
+        img {
+            width: 75%!important;
+        }
+    }
+    
+    
 }

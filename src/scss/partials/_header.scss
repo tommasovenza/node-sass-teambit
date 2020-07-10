@@ -8,6 +8,7 @@ header {
     }
 
     ul li:last-child {
+        position: relative; 
         margin-right: 0;
         @include btn-test;
     }
@@ -47,6 +48,16 @@ header {
         display: none;
     }
 
+    .icon {
+        position: absolute;
+        right: 70px;
+        top: 9px;
+
+        img {
+            width: 20px;
+        }
+    }
+
     .fa-times {
         font-size: 20px;
     }
@@ -64,6 +75,10 @@ header {
         left: 9%;
         top: 10%;
         width: 100%;
+    }
+
+    .icon {
+        left: 0;
     }
 
     .nascosto {
