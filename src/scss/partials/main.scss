@@ -164,7 +164,51 @@
         img {
             width: 75%!important;
         }
+    }    
+}
+
+// sezione asimmetrica 
+.asimmetrica {
+
+    img {
+    width: 1000px;
     }
-    
-    
+        .contenitore {
+        display: flex;
+
+            p {
+                font-size: 16px;
+                color: $primary_color;
+            }
+            .testi-con-immagine {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                line-height: 30px;
+                margin-top: 200px;
+                width: 500px;
+
+                    img {
+                        width: 400px;
+                    }
+        }
+    }
+
+}
+// media queries sezione asimmetrica
+@media screen and (max-width: 900px) {
+
+    .asimmetrica {
+        img {
+            width: 480px;
+        }
+        .contenitore {
+            flex-direction: column;
+            .testi-con-immagine {
+                margin-top: 0;
+                align-items: center;
+                padding: 20px;
+            }
+        }      
+    }
 }

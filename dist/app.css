@@ -271,3 +271,45 @@ header a:hover {
   }
 }
 
+.asimmetrica img {
+  width: 1000px;
+}
+
+.asimmetrica .contenitore {
+  display: flex;
+}
+
+.asimmetrica .contenitore p {
+  font-size: 16px;
+  color: #58402c;
+}
+
+.asimmetrica .contenitore .testi-con-immagine {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  line-height: 30px;
+  margin-top: 200px;
+  width: 500px;
+}
+
+.asimmetrica .contenitore .testi-con-immagine img {
+  width: 400px;
+}
+
+@media screen and (max-width: 900px) {
+  .asimmetrica img {
+    width: 480px;
+  }
+
+  .asimmetrica .contenitore {
+    flex-direction: column;
+  }
+
+  .asimmetrica .contenitore .testi-con-immagine {
+    margin-top: 0;
+    align-items: center;
+    padding: 20px;
+  }
+}
+

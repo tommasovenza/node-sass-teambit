@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +12,9 @@
     <link rel="stylesheet" href="dist/app.css">
     <title>Primi passi con SASS</title>
 </head>
+
 <body>
-    
+
     <!-- il container della pagina -->
     <div class="container">
 
@@ -24,7 +26,7 @@
                 <div class="logo">
                     <img src="img/logo.svg" alt="logo">
                 </div>
-                
+
                 <!-- navbar a destra -->
                 <div class="nav-container">
                     <nav>
@@ -33,13 +35,15 @@
                             <li><a href="#">Pricing</a></li>
                             <li><a href="#">Blog</a></li>
                             <li><a href="#">Sign In</a></li>
-                            <li><a href="#">Sign Up</a><div class="icon">
-                                <img src="img/google-logo.svg" alt="logo-google">
-                            </div></li>
+                            <li><a href="#">Sign Up</a>
+                                <div class="icon">
+                                    <img src="img/google-logo.svg" alt="logo-google">
+                                </div>
+                            </li>
                         </ul>
                     </nav>
 
-                    
+
 
                     <!-- icona x che appare alla media queries di 900px -->
                     <div class="nascosto">
@@ -73,77 +77,96 @@
                 <img src="img/illustration-main.jpg" alt="immagine">
             </div>
         </div>
-    </div>   
+    </div>
 
-        <!-- sezione con background salmone -->
+    <!-- sezione con background salmone -->
 
-        <section class="salmone">
+    <section class="salmone">
 
-            <div class="container">
-                <div class="intro">
-                    <h2>Traditional people processes lead to</h2>
-                </div>
-    
-                <div class="salmone-wrapper">
-                    <div class="dettaglio">
-                        <img src="img/hardcore.png" alt="good-bad">
-                        <p>They are hardcore, formal and disconnected</p>
-                    </div>
-                    
-                    <div class="dettaglio">
-                        <img src="img/nofeedback.png" alt="good-bad">
-                        <p>They don't encourage regular feedback</p>
-                    </div>
-    
-                    <div class="dettaglio">
-                        <img src="img/notsafe.png" alt="good-bad">
-                        <p>They don't make it safe to speak up</p>
-                    </div>
-                </div>
-                
-                <div class="immagine-centrale">
-                    <img src="img/before.png" alt="immagine-coniglio">
+        <div class="container">
+            <div class="intro">
+                <h2>Traditional people processes lead to</h2>
+            </div>
+
+            <div class="salmone-wrapper">
+                <div class="dettaglio">
+                    <img src="img/hardcore.png" alt="good-bad">
+                    <p>They are hardcore, formal and disconnected</p>
                 </div>
 
-                <div class="vuoto"></div>
-                <!-- seconda parte -->
-
-                <div class="intro">
-                    <h2>It doesn't have to be like that. Teambit is a modern solution that teammates love.</h2>
-                </div>
-    
-                <div class="salmone-wrapper">
-                    <div class="dettaglio">
-                        <img src="img/lightweight.png" alt="good-bad">
-                        <p>It's lightweight fun and interconnected</p>
-                    </div>
-                    
-                    <div class="dettaglio">
-                        <img src="img/feedbacksuggestions.png" alt="good-bad">
-                        <p> It encourages regular feedback with contextual requests</p>
-                    </div>
-    
-                    <div class="dettaglio">
-                        <img src="img/safe.png" alt="good-bad">
-                        <p>It creates a safe environment for dialog</p>
-                    </div>
-                </div>
-                
-                <div class="immagine-centrale">
-                    <img src="img/after.png" alt="immagine-coniglio">
+                <div class="dettaglio">
+                    <img src="img/nofeedback.png" alt="good-bad">
+                    <p>They don't encourage regular feedback</p>
                 </div>
 
-                <div class="colophon">
-                    <h2>Here is how it works</h2>
+                <div class="dettaglio">
+                    <img src="img/notsafe.png" alt="good-bad">
+                    <p>They don't make it safe to speak up</p>
                 </div>
             </div>
 
-        </section>
-        
-    
+            <div class="immagine-centrale">
+                <img src="img/before.png" alt="immagine-coniglio">
+            </div>
 
+            <div class="vuoto"></div>
+            <!-- seconda parte -->
+
+            <div class="intro">
+                <h2>It doesn't have to be like that. Teambit is a modern solution that teammates love.</h2>
+            </div>
+
+            <div class="salmone-wrapper">
+                <div class="dettaglio">
+                    <img src="img/lightweight.png" alt="good-bad">
+                    <p>It's lightweight fun and interconnected</p>
+                </div>
+
+                <div class="dettaglio">
+                    <img src="img/feedbacksuggestions.png" alt="good-bad">
+                    <p> It encourages regular feedback with contextual requests</p>
+                </div>
+
+                <div class="dettaglio">
+                    <img src="img/safe.png" alt="good-bad">
+                    <p>It creates a safe environment for dialog</p>
+                </div>
+            </div>
+
+            <div class="immagine-centrale">
+                <img src="img/after.png" alt="immagine-coniglio">
+            </div>
+
+            <div class="colophon">
+                <h2>Here is how it works</h2>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- sezione layout asimmetrico -->
+
+    <section class="asimmetrica">
+        <div class="contenitore">
+            <div class="immagine">
+                <img src="img/employee-feedback.jpg" alt="immagine-feedback">
+            </div>
+
+            <div class="testi-con-immagine">
+                <h2>Feedback to help teammates improve</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aspernatur maxime consequatur enim
+                    ab veniam illo corporis odio beatae itaque aperiam dolores sed, culpa reiciendis iusto! Expedita,
+                    aliquam. Dolor, temporibus?</p>
+
+                <a href="#">learn more <i class="fas fa-arrow-right"></i></a>    
+
+                <img src="img/communication.jpg" alt="communication">
+            </div>
+        </div>
+    </section>
 
 
 
 </body>
+
 </html>
