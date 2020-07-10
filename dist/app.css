@@ -6,6 +6,7 @@
 
 body {
   font-family: "roboto", sans-serif;
+  font-weight: bold;
 }
 
 header {
@@ -60,5 +61,27 @@ header a:hover {
 
 .white {
   color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+  .nav-container ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    left: 9%;
+    top: 10%;
+    width: 100%;
+  }
+
+  .nav-container li {
+    margin-top: 20px;
+  }
+
+  .nav-container li:last-child {
+    width: 85%;
+    text-align: center;
+  }
 }
 
