@@ -12,6 +12,12 @@ h1 {
     font-size: 60px;
     line-height: 85px;
     color: $primary_color;
+    max-width: 650px;
+}
+
+h2 {
+    color: $primary_color;
+    font-size: 32px;
 }
 // IL CONTAINER CHE WRAPPA TUTTO IL SITO
 .container {

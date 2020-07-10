@@ -13,6 +13,12 @@ h1 {
   font-size: 60px;
   line-height: 85px;
   color: #58402c;
+  max-width: 650px;
+}
+
+h2 {
+  color: #58402c;
+  font-size: 32px;
 }
 
 .container {
@@ -141,6 +147,12 @@ header a:hover {
   width: 500px;
 }
 
+@media screen and (max-width: 1100px) {
+  .hero-section img {
+    width: 350px;
+  }
+}
+
 @media screen and (max-width: 900px) {
   h1 {
     font-size: 50px;
@@ -165,7 +177,53 @@ header a:hover {
   }
 
   .hero-section img {
-    width: 400px;
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero-section img {
+    width: 500px;
+  }
+}
+
+.salmone {
+  color: #58402c;
+  padding: 50px 0;
+  background-color: #fee7d1;
+}
+
+.salmone p {
+  font-weight: 400;
+}
+
+.salmone img {
+  height: 150px;
+}
+
+.salmone .intro {
+  text-align: center;
+}
+
+.salmone .salmone-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.salmone .salmone-wrapper .dettaglio {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.salmone .salmone-wrapper .dettaglio img {
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .salmone-wrapper {
+    flex-direction: column;
   }
 }
 

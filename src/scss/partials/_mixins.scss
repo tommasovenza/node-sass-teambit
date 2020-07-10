@@ -1,6 +1,6 @@
 // delle specie di variabili in cui possono mettere tante regole
 @mixin btn-test {
-    border: 1px solid #2c4792;
+    border: 1px solid $secondary_color;
     padding: 10px 12px;
     border-radius: 4px;
 }

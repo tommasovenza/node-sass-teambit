@@ -1,5 +1,4 @@
 // le variabili per prime
-
 //ecco tutti gli import collegati dalla cartella partials
 @import 'partials/variables';
 @import 'partials/mixins';
@@ -8,3 +7,4 @@
 @import 'partials/footer';
 @import 'partials/main';
 
+// questo è l'entry file. il suo unico obbiettivo è definire i componenti che saranno poi creati nella partials
