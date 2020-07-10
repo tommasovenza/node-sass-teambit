@@ -198,7 +198,7 @@ header a:hover {
 
 @media screen and (max-width: 600px) {
   .hero-section img {
-    width: 500px;
+    width: 300px;
   }
 }
 
@@ -267,12 +267,12 @@ header a:hover {
   }
 
   .immagine-centrale img {
-    width: 75% !important;
+    width: 60% !important;
   }
 }
 
 .asimmetrica img {
-  width: 1000px;
+  width: 600px;
 }
 
 .asimmetrica .contenitore {
@@ -280,36 +280,85 @@ header a:hover {
 }
 
 .asimmetrica .contenitore p {
-  font-size: 16px;
+  font-weight: normal;
   color: #58402c;
 }
 
 .asimmetrica .contenitore .testi-con-immagine {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
   line-height: 30px;
   margin-top: 200px;
   width: 500px;
 }
 
 .asimmetrica .contenitore .testi-con-immagine img {
-  width: 400px;
+  width: 300px;
+}
+
+.asimmetrica2 img {
+  width: 600px;
+}
+
+.asimmetrica2 .contenitore {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.asimmetrica2 .contenitore p {
+  font-weight: normal;
+  color: #58402c;
+}
+
+.asimmetrica2 .contenitore .testi-con-immagine {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  margin-top: 200px;
+  width: 500px;
+}
+
+.asimmetrica2 .contenitore .testi-con-immagine img {
+  width: 300px;
 }
 
 @media screen and (max-width: 900px) {
+  .asimmetrica h2 {
+    font-size: 20px;
+  }
+
   .asimmetrica img {
-    width: 480px;
+    width: 300px;
   }
 
   .asimmetrica .contenitore {
     flex-direction: column;
+    align-items: center;
   }
 
   .asimmetrica .contenitore .testi-con-immagine {
     margin-top: 0;
+    padding: 20px 80px;
     align-items: center;
-    padding: 20px;
+  }
+
+  .asimmetrica2 h2 {
+    font-size: 20px;
+  }
+
+  .asimmetrica2 img {
+    width: 300px;
+  }
+
+  .asimmetrica2 .contenitore {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .asimmetrica2 .contenitore .testi-con-immagine {
+    margin-top: 0;
+    padding: 20px 80px;
+    align-items: center;
   }
 }
 

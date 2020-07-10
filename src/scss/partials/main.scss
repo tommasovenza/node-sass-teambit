@@ -83,7 +83,7 @@
 @media screen and (max-width: 600px) {
     .hero-section {
         img {
-            width: 500px;
+            width: 300px;
         }
     }
 }
@@ -162,7 +162,7 @@
     .immagine-centrale {
         
         img {
-            width: 75%!important;
+            width: 60%!important;
         }
     }    
 }
@@ -171,43 +171,99 @@
 .asimmetrica {
 
     img {
-    width: 1000px;
+    width: 600px;
     }
         .contenitore {
         display: flex;
 
             p {
-                font-size: 16px;
+                font-weight: normal;
                 color: $primary_color;
             }
             .testi-con-immagine {
                 display: flex;
                 flex-direction: column;
-                justify-content: flex-end;
                 line-height: 30px;
                 margin-top: 200px;
                 width: 500px;
 
                     img {
-                        width: 400px;
+                        width: 300px;
                     }
         }
     }
 
 }
+
+// sezione asimmetrica 
+.asimmetrica2 {
+
+    img {
+    width: 600px;
+    }
+        .contenitore {
+        display: flex;
+        flex-direction: row-reverse;
+            p {
+                font-weight: normal;
+                color: $primary_color;
+            }
+            .testi-con-immagine {
+                display: flex;
+                flex-direction: column;
+                line-height: 30px;
+                margin-top: 200px;
+                width: 500px;
+
+                    img {
+                        width: 300px;
+                    }
+        }
+    }
+
+}
+
+
 // media queries sezione asimmetrica
 @media screen and (max-width: 900px) {
 
     .asimmetrica {
+
+        h2 {
+            font-size: 20px;
+        }
+
         img {
-            width: 480px;
+            width: 300px;
         }
         .contenitore {
             flex-direction: column;
+            align-items: center;
             .testi-con-immagine {
                 margin-top: 0;
+                padding: 20px 80px;
                 align-items: center;
-                padding: 20px;
+                
+            }
+        }      
+    }
+
+    .asimmetrica2 {
+        h2 {
+            font-size: 20px;
+        }
+
+        img {
+            width: 300px;
+        }
+        .contenitore {
+            flex-direction: column-reverse;
+            align-items: center;
+            .testi-con-immagine {
+                margin-top: 0;
+                padding: 20px 80px;
+                align-items: center;
+                
             }
         }      
     }
