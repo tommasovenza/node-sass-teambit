@@ -15,6 +15,15 @@ h1 {
   color: #58402c;
 }
 
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.white {
+  color: #fff;
+}
+
 header {
   height: 80px;
 }
@@ -48,11 +57,6 @@ header a:hover {
   color: orange;
 }
 
-.container {
-  width: 85%;
-  margin: 0 auto;
-}
-
 .nav-wrapper {
   display: flex;
   justify-content: space-between;
@@ -71,10 +75,6 @@ header a:hover {
 
 .nav-wrapper .fa-times {
   font-size: 20px;
-}
-
-.white {
-  color: #fff;
 }
 
 @media screen and (max-width: 900px) {

@@ -1,0 +1,82 @@
+// regole dell'header
+header {
+    height: 80px;
+
+    ul li {
+        display: inline-block;
+        margin-right: 50px;
+    }
+
+    ul li:last-child {
+        margin-right: 0;
+        @include btn-test;
+    }
+
+    ul li:last-child:hover {
+            
+        background-color: #2c4792;
+
+        a {
+            color: #fff;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: $primary_color;
+    }
+
+    a:hover {
+        color: orange;
+    }
+
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    border-bottom: 2px solid $primary_color;
+
+    .logo {
+        margin-left: 15px;
+    }
+
+    .nascosto {
+        display: none;
+    }
+
+    .fa-times {
+        font-size: 20px;
+    }
+}
+
+// media screen per la navbar
+@media screen and (max-width: 900px) {
+
+    .nav-container ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        position: absolute;
+        left: 9%;
+        top: 10%;
+        width: 100%;
+    }
+
+    .nascosto {
+        display: block!important;
+        color: $primary_color;
+    }
+
+    .nav-container li {
+        margin-top: 20px;
+    }
+
+    .nav-container li:last-child {
+        width: 85%;
+        text-align: center;
+    }
+}

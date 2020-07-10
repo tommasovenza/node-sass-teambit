@@ -1,0 +1,24 @@
+// reset CSS
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'roboto', sans-serif;
+    font-weight: bold;
+}
+h1 {
+    font-size: 60px;
+    line-height: 85px;
+    color: $primary_color;
+}
+// IL CONTAINER CHE WRAPPA TUTTO IL SITO
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.white {
+    color: #fff;
+}
