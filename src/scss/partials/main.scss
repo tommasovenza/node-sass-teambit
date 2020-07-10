@@ -268,3 +268,80 @@
         }      
     }
 }
+
+// sezione cofounders
+
+.author {
+    background-color: #fee7d1;
+    margin: 30px 0;
+    padding: 50px 0 500px 0;
+    color: $primary_color;
+    font-weight: normal;
+    font-size: 18px;
+
+    .wrapper {
+
+        width: 600px;
+        margin: 0 auto;
+        position: relative;
+
+        .intro {
+            text-align: center;
+            padding: 50px 0;
+            h2 {
+                font-size: 50px;
+            }
+
+            img {
+                position: absolute;
+                right: -8px;
+                bottom: 65px;
+            }
+        }
+    }
+
+    .testimonial {
+        width: 800px;
+        margin: 0 auto;
+        background-color: #fff;
+        border: 2px solid $secondary_color;
+        border-radius: 18px;
+        padding: 25px;
+        position: relative;
+
+        .text-georgia {
+            position: absolute;
+            top: -38px;
+            left: -10px;
+
+            span {
+                font-family: 'Arial', serif;
+                font-size: 120px;
+                color: $secondary_color;
+            }
+        }
+
+        .info-container {
+            display: flex;
+            align-items: center;
+            
+            img {
+                margin-right: 10px;
+            }
+            .info {
+                margin-top: 20px;
+
+                :first-child {
+                    color: $secondary_color;
+                }
+
+               
+            }
+        }
+
+        img {
+            margin-top: 20px;
+        }
+    }
+    
+}
