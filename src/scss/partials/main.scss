@@ -274,7 +274,7 @@
 .author {
     background-color: #fee7d1;
     margin: 30px 0;
-    padding: 50px 0 500px 0;
+    padding: 50px 0 180px 0;
     color: $primary_color;
     font-weight: normal;
     font-size: 18px;
@@ -343,5 +343,33 @@
             margin-top: 20px;
         }
     }
-    
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0;
+        
+        a {
+            margin: 0 15px;
+            @include btn-test;
+            text-decoration: none;
+
+            &:hover {
+                background-color: $secondary_color;
+                color: #fff;
+            }
+        }
+    }
+
+    .or {
+        display: flex;
+        justify-content: center;
+
+        a {
+            text-decoration: none;
+            margin-left: 10px;
+            color: $primary_color;
+        }
+    } 
 }
