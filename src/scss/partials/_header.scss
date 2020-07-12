@@ -60,11 +60,20 @@ header {
 
     .fa-times {
         font-size: 20px;
+        display: none;
+    }
+
+    .fa-bars {
+        font-size: 20px;
     }
 }
 
 // media screen per la navbar
 @media screen and (max-width: 900px) {
+
+    .nav-container {
+        display: none;
+    }
 
     .nav-container ul {
         display: flex;
@@ -75,6 +84,7 @@ header {
         left: 9%;
         top: 10%;
         width: 100%;
+        background-color: #fff;
     }
 
     .icon {

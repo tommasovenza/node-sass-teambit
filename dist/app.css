@@ -30,6 +30,20 @@ h2 {
   color: #fff;
 }
 
+.active {
+  display: block !important;
+}
+
+.set {
+  position: absolute;
+  top: 28px;
+  right: 36px;
+}
+
+.hidden {
+  display: none;
+}
+
 header {
   height: 80px;
 }
@@ -92,9 +106,18 @@ header a:hover {
 
 .nav-wrapper .fa-times {
   font-size: 20px;
+  display: none;
+}
+
+.nav-wrapper .fa-bars {
+  font-size: 20px;
 }
 
 @media screen and (max-width: 900px) {
+  .nav-container {
+    display: none;
+  }
+
   .nav-container ul {
     display: flex;
     flex-direction: column;
@@ -104,6 +127,7 @@ header a:hover {
     left: 9%;
     top: 10%;
     width: 100%;
+    background-color: #fff;
   }
 
   .icon {
@@ -209,7 +233,6 @@ footer .fromTheBlog {
   }
 
   .hero-section {
-    margin-top: 250px;
     flex-direction: column;
   }
 

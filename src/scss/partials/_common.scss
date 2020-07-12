@@ -28,3 +28,17 @@ h2 {
 .white {
     color: #fff;
 }
+
+.active {
+    display: block!important;
+}
+
+.set {
+    position: absolute;
+    top: 28px;
+    right: 36px;
+}
+
+.hidden {
+    display: none;
+}
