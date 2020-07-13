@@ -105,12 +105,12 @@ header a:hover {
 }
 
 .nav-wrapper .fa-times {
-  font-size: 20px;
+  font-size: 27px;
   display: none;
 }
 
 .nav-wrapper .fa-bars {
-  font-size: 20px;
+  font-size: 23px;
 }
 
 @media screen and (max-width: 900px) {
