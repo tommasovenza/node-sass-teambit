@@ -294,13 +294,17 @@ footer .fromTheBlog {
   padding-bottom: 30px;
 }
 
-.salmone .immagine-centrale {
+.salmone .parent {
+  display: flex;
+  justify-content: center;
+}
+
+.salmone .parent .immagine-centrale {
   width: 500px;
-  margin: 0 auto;
   padding-bottom: 50px;
 }
 
-.salmone .immagine-centrale img {
+.salmone .parent .immagine-centrale img {
   width: 100%;
 }
 
@@ -323,8 +327,8 @@ footer .fromTheBlog {
     flex-direction: column;
   }
 
-  .immagine-centrale img {
-    width: 60% !important;
+  .salmone .container .parent .immagine-centrale {
+    width: 300px;
   }
 }
 
@@ -461,13 +465,9 @@ footer .fromTheBlog {
 
 .author .testimonial .text-georgia {
   position: absolute;
-  top: -38px;
-  left: -10px;
-}
-
-.author .testimonial .text-georgia span {
-  font-family: "Arial", serif;
-  font-size: 120px;
+  top: -29px;
+  font-size: 50px;
+  left: -1px;
   color: #2c4792;
 }
 
@@ -521,5 +521,15 @@ footer .fromTheBlog {
   text-decoration: none;
   margin-left: 10px;
   color: #58402c;
+}
+
+@media screen and (max-width: 900px) {
+  .author .wrapper {
+    width: 300px;
+  }
+
+  .author .testimonial {
+    width: 300px;
+  }
 }
 
